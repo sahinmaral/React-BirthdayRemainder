@@ -1,0 +1,47 @@
+#main-area {
+  background-color: white;
+  width: 400px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 40%);
+  padding: 25px;
+  border-radius: 5px;
+  margin:100px auto;
+}
+
+#main-area h3 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+#main-area button {
+  background-color: #f28ab2;
+  border-radius: 5px;
+  width: 350px;
+  height: 45px;
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+  border: 0px;
+  margin-top: 10px;
+}
+
+.person-area {
+  margin: 20px 0;
+}
+
+.person-area img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.person-area .person-area-fullname {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.person-area .person-area-age {
+  color: gray;
+}
